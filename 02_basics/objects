@@ -34,8 +34,8 @@ JsUser.greetingTwo = function(){
     console.log(`Hello JS user, ${this.name}`);
 }
 
-console.log(JsUser.greeting());
-console.log(JsUser.greetingTwo());
+// console.log(JsUser.greeting());
+// console.log(JsUser.greetingTwo());
 /////////////////////////////
 // const tinderUser = new Object()
 const tinderUser = {}
@@ -84,11 +84,11 @@ const users = [
     },
 ]
 
-users[1].email
+// users[1].email
 // console.log(tinderUser);
 
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
+ console.log( Object.keys(tinderUser));
+ console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
@@ -102,10 +102,10 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+// const {courseInstructor: instructor} = course
 
-// console.log(courseInstructor);
-console.log(instructor);
+// // console.log(courseInstructor);
+// console.log(instructor);
 
 // {
 //     "name": "hitesh",
@@ -113,8 +113,8 @@ console.log(instructor);
 //     "price": "free"
 // }
 
-[
-    {},
-    {},
-    {}
-]
+// [
+//     {},
+//     {},
+//     {}
+// ]
