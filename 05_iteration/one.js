@@ -5,7 +5,7 @@
 //     console.log(`${x[i]+y[j]}`);
 // }
 // }
-// for
+// 
 
 for (let i = 0; i <= 10; i++) {
     const element = i;

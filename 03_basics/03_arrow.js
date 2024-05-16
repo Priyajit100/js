@@ -10,10 +10,10 @@ const user = {
 }
 
 // user.welcomeMessage()
-// user.username = "sam"
-// user.welcomeMessage()
+//user.username = "sam"
+ //user.welcomeMessage()
 
-// console.log(this);
+ //console.log(this);
 
 // function chai(){
 //     let username = "hitesh"
@@ -33,7 +33,7 @@ const chai =  () => {
 }
 
 
-// chai()
+ chai()
 
 // const addTwo = (num1, num2) => {
 //     return num1 + num2
@@ -46,7 +46,7 @@ const chai =  () => {
 const addTwo = (num1, num2) => ({username: "hitesh"})
 
 
-console.log(addTwo(3, 4))
+//console.log(addTwo(3, 4))
 
 
 // const myArray = [2, 5, 3, 7, 8]
