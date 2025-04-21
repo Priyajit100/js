@@ -12,6 +12,7 @@ let valueInNumber = Number(score)
 // "33" => 33
 // "33abc" => NaN
 //  true => 1; false => 0
+
 //Falsy Values
 // "" 
 // 0
@@ -19,8 +20,8 @@ let valueInNumber = Number(score)
 // undefined
 // NaN
 
-// false
-let isLoggedIn = ""
+
+let isLoggedIn = "hi"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
   console.log(booleanIsLoggedIn);
