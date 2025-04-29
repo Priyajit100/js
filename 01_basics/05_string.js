@@ -13,7 +13,7 @@ const gameName = new String('hitesh-hc-com')
 
 
 // console.log(gameName.length);
-// console.log(gameName.toUpperCase());
+ console.log(gameName.toUpperCase());
 //console.log(gameName.charAt(5));
 //console.log(gameName.indexOf('t'));
 

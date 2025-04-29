@@ -1,6 +1,6 @@
 //  Primitive
 
-//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
+//  7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
 
 const score = 100
 const scoreValue = 100.3
@@ -31,8 +31,7 @@ let myObj = {
 const myFunction = function(){
     // console.log("Hello world");
 }
-
-// console.log(typeof myFunction);
+ console.log(typeof myFunction);
 const x=["x","y"];
 // console.log(x);
 let y={
