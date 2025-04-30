@@ -22,13 +22,15 @@ function one(){
         const website = "youtube"
         console.log(username);
     }
-    // console.log(website);
+    
 
-     two()
+    two()
 
 }
 
- one()
+ one();
+
+// 
 
 // if (true) {
 //     const username = "hitesh"
