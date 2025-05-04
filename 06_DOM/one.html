@@ -26,13 +26,17 @@
             <li class="list-item">four</li>
         </ul>
     </div>
-    <!-- document.querySelector('h1')
+    <script>
+    document.querySelector('h1')
     document.getElementById('title').style.backgroundColor = 'white';
-    document.getElementById('title').innerHTML='DOM aur chai aur code'
+    //document.getElementById('title').innerHTML='DOM aur chai aur code'
+   document.getElementById('title').childNodes[0].nodeValue = 'DOM aur chai aur code ';
     document.getElementsByClassName('heading') 
     const x=document.querySelectorAll('h1')
-    x.forEach(function(t){
+    x.forEach(t=>{
     t.style.color='red'
-     }) -->
+     })
+     document.querySelector('span').style.display = 'inline';
+     </script>
 </body>
 </html>

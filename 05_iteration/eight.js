@@ -10,7 +10,14 @@
 
 // console.log(myTotal);
 
-
+// let myArray = [1, 2, 3, 4, 5]
+// let y=myArray.reduce(function(acc,x){
+//  return acc+x
+// },0)
+// console.log(y)
+// ((x,y)=>{
+// console.log( x*y);
+// })(5,10)
 // const shoppingCart = [
 //     {
 //         itemName: "js course",
