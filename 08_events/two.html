@@ -11,7 +11,7 @@
     <button id="stop">Stop</button>
     <script>
         const sayDate = function(str){
-            console.log(str, Date.now());
+            console.log(str, new Date().toLocaleTimeString());
         }
 
         let v; // Define v in a scope accessible to both event listeners
