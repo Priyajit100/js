@@ -42,7 +42,7 @@ const myObject = {
 // [mysb]:12345
 // }
 // console.log(typeof(y[mysb]))
-// for (const [key, value] of myObject) {
+// for (const [key, value] of Object.entries(myObject)) {
 //     console.log(key, ':-', value);
     
 // }

@@ -21,7 +21,7 @@ const chai = new User("chai", "chai@gmail.com", "123")
 console.log(chai.encryptPassword());
 console.log(chai.changeUsername());
 
-// behind the scene
+// behind the scene of above code
 
 function User(username, email, password){
     this.username = username;
@@ -30,7 +30,7 @@ function User(username, email, password){
 }
 
 User.prototype.encryptPassword = function(){
-    return `${this.password}abc`
+    return this.password
 }
 User.prototype.changeUsername = function(){
     return `${this.username.toUpperCase()}`
