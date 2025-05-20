@@ -1,39 +1,33 @@
-// singleton
-// Object.create
-
-// object literals
-
-const mySym = Symbol("key1")
-
+const mySym = Symbol("key1");
 
 const JsUser = {
-    name: "Hitesh",
-    "full name": "Hitesh Choudhary",
-    [mySym]: "mykey1",
-    age: 18,
-    location: "Jaipur",
-    email: "hitesh@google.com",
-    isLoggedIn: false,
-    lastLoginDays: ["Monday", "Saturday"]
-}
+  name: "Hitesh",
+  "full name": "Hitesh Choudhary",
+  [mySym]: "mykey1",
+  age: 18,
+  location: "Jaipur",
+  email: "hitesh@google.com",
+  isLoggedIn: false,
+  lastLoginDays: ["Monday", "Saturday"],
+};
 
 // console.log(JsUser.email)
 // console.log(JsUser["email"])
 // console.log(JsUser["full name"])
- console.log(JsUser[mySym])
+console.log(JsUser[mySym]);
 
-JsUser.email = "hitesh@chatgpt.com"
+JsUser.email = "hitesh@chatgpt.com";
 
-JsUser.email = "hitesh@microsoft.com"
-delete JsUser.email
+JsUser.email = "hitesh@microsoft.com";
+delete JsUser.email;
 // console.log(JsUser);
 
-JsUser.greeting = function(){
+JsUser.greeting = function () {
   //  console.log("Hello JS user");
-}
-JsUser.greetingTwo = function(){
-   // console.log(`Hello JS user, ${this.name}`);
-}
+};
+JsUser.greetingTwo = function () {
+  // console.log(`Hello JS user, ${this.name}`);
+};
 console.log(JsUser);
 // console.log(JsUser.greeting());
 // console.log(JsUser.greetingTwo());
@@ -48,37 +42,34 @@ console.log(JsUser);
 // console.log(tinderUser);
 
 const regularUser = {
-    email: "some@gmail.com",
-    fullname: {
-        userfullname: {
-            firstname: "hitesh",
-            lastname: "choudhary"
-        }
-    }
-}
+  email: "some@gmail.com",
+  fullname: {
+    userfullname: {
+      firstname: "hitesh",
+      lastname: "choudhary",
+    },
+  },
+};
 
 // console.log(regularUser.fullname.userfullname.firstname);
 
-
-
 //const obj3 = {...obj1, ...obj2}
- //console.log(obj3);
-
+//console.log(obj3);
 
 const users = [
-    {
-        id: 1,
-        email: "h@gmail.com"
-    },
-    {
-        id: 1,
-        email: "h@gmail.com"
-    },
-    {
-        id: 1,
-        email: "h@gmail.com"
-    },
-]
+  {
+    id: 1,
+    email: "h@gmail.com",
+  },
+  {
+    id: 1,
+    email: "h@gmail.com",
+  },
+  {
+    id: 1,
+    email: "h@gmail.com",
+  },
+];
 //Object.fromEntries().
 // users[1].email
 // console.log(tinderUser);
@@ -89,19 +80,18 @@ const users = [
 
 //console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
-
 const course = {
-    coursename: "js in hindi",
-    price: "999",
-    courseInstructor: "hitesh"
-}
+  coursename: "js in hindi",
+  price: "999",
+  courseInstructor: "hitesh",
+};
 
- //course.courseInstructor="abcd"
+//course.courseInstructor="abcd"
 
- //const {courseInstructor: instructor} = course
+//const {courseInstructor: instructor} = course
 
 // // console.log(courseInstructor);
- //console.log(course);
+//console.log(course);
 
 // {
 //     "name": "hitesh",
@@ -119,7 +109,7 @@ const course = {
 //     name: "Alex",
 //     isLoggedIn: true
 //   };
-  
+
 //   // Use Object.entries to get key-value pairs, modify them, then convert back to an object
 //   const updatedUser = Object.fromEntries(
 //     Object.entries(tinderUser).map(([key, value]) => {
@@ -129,14 +119,14 @@ const course = {
 //       return [key, value]; // Keep other properties unchanged
 //     })
 //   );
-  
+
 const tinderUser = {
-    id: "123abc",
-    name: "Alex",
-    isLoggedIn: true
-  };
-  
-  const updatedUser = Object.fromEntries(
+  id: "123abc",
+  name: "Alex",
+  isLoggedIn: true,
+};
+
+const updatedUser = Object.fromEntries(
   Object.entries(tinderUser).map(([key, value]) => {
     if (typeof value === "boolean") {
       return [key, !value]; // Invert the boolean value
